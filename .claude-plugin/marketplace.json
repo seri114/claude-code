@@ -1,20 +1,20 @@
 {
+  "$schema": "https://anthropic.com/claude-code/marketplace.schema.json",
   "name": "seri114-plugins",
+  "description": "Personal Claude Code plugins by seri114",
   "owner": {
     "name": "seri114"
-  },
-  "metadata": {
-    "description": "Personal Claude Code plugins by seri114",
-    "version": "1.0.0"
   },
   "plugins": [
     {
       "name": "claude-notes-app",
+      "description": "Read and write macOS Notes.app using Python. Create, read, update, and delete notes with Markdown support.",
+      "category": "productivity",
       "source": {
-        "source": "github",
-        "repo": "seri114/claude-notes-app"
+        "source": "url",
+        "url": "https://github.com/seri114/claude-notes-app.git"
       },
-      "description": "Read and write macOS Notes.app using Python. Create, read, update, and delete notes with Markdown support."
+      "homepage": "https://github.com/seri114/claude-notes-app"
     }
   ]
 }
