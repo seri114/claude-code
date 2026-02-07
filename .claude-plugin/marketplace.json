@@ -11,8 +11,7 @@
     {
       "name": "claude-notes-app",
       "source": {
-        "source": "github",
-        "repo": "seri114/claude-notes-app"
+        "source": "https://github.com/seri114/claude-notes-app.git"
       },
       "description": "Read and write macOS Notes.app using Python. Create, read, update, and delete notes with Markdown support."
     }
