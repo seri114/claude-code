@@ -1,0 +1,20 @@
+{
+  "name": "seri114-plugins",
+  "owner": {
+    "name": "seri114"
+  },
+  "metadata": {
+    "description": "Personal Claude Code plugins by seri114",
+    "version": "1.0.0"
+  },
+  "plugins": [
+    {
+      "name": "claude-notes-app",
+      "source": {
+        "source": "github",
+        "repo": "seri114/claude-notes-app"
+      },
+      "description": "Read and write macOS Notes.app using Python. Create, read, update, and delete notes with Markdown support."
+    }
+  ]
+}
